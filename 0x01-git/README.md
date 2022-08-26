@@ -1,1 +1,1 @@
-thanks, trevor
+thanks, freedom
