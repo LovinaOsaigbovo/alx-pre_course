@@ -1,0 +1,9 @@
+let Arr1 = [33, 1000, 9, 100];
+let Max = Math.max(...Arr1);
+let Arr2 = Arr1.filter(x => x < Max);
+let secondMax = Math.max(...Arr2)
+let Arr3 = Arr2.filter(x => x < secondMax);
+let thirdMax = Math.max(...Arr3);
+let Arr4 = Arr3.filter(x => x < thirdMax);
+Arr4.push(Arr3[0]);
+console.log(Arr4);
